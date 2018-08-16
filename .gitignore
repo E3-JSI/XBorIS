@@ -1,6 +1,11 @@
+# Node.js
+node_modules/
 
 # Vim files
 .vimrc
 
 # JSHint
 .jshintrc
+
+# Mac files
+.DS_Store

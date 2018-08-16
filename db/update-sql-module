@@ -1,0 +1,8 @@
+#!/bin/bash
+
+echo 'enter the database username'
+read uname
+echo 'enter the database password'
+read password
+
+node-sql-generate --dsn "postgres://$uname:$password@localhost/xboris" > ../src/common/db/schema/schema.js
