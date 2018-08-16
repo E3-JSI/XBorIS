@@ -1,0 +1,16 @@
+{
+    "server": {
+        "port": 8085,
+        "sessionSecret": "XBorISRules",
+        "mode": "debug"
+    },
+    "database": {
+        "host": "localhost",
+        "user": "xboris",
+        "password": "xboris12",
+        "database": "xboris"
+    },
+    "app": {
+    }
+}
+

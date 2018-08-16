@@ -1,0 +1,5 @@
+#!/bin/bash
+
+echo 'initializing tables'
+cat drop-schema.sql | psql -U kguser -d kg
+cat init-schema.sql | psql -U kguser -d kg
